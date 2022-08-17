@@ -64,7 +64,7 @@ const TaskForm = ({btnText, taskList, setTaskList, task, handleUpdate}: Props) =
                 value={title}/>
             </div>
             <div className={styles.input_container}>
-                <label htmlFor='difficulty'>Titulo:</label>
+                <label htmlFor='difficulty'>Dificuldade:</label>
                 <input 
                 type="text" 
                 name='difficulty' 
